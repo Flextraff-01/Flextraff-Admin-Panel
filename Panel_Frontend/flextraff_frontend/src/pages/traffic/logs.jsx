@@ -9,8 +9,6 @@ export default function Logs({ darkMode, toggleDarkMode }) {
   const [junctions, setJunctions] = useState([]);
   const wsRef = useRef(null);
 
-
-  
   // read WS url from env (Vite)
   const WS_URL = import.meta.env.VITE_WS_URL || (window.location.hostname === "localhost" ? "ws://localhost:3000/ws/logs" : `wss://${window.location.host}/ws/logs`);
 
