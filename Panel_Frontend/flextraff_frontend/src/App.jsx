@@ -4,22 +4,22 @@ import {
   Route,
   Navigate,
 } from "react-router-dom"; // 👈 Added Navigate here
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import ProtectedRoute from "./components/ProtectedRoute";
-import Controls from "./pages/controls";
-import { ThemeProvider, ThemeContext } from "./components/ThemeContext";
-import TrafficData from "./pages/Traffic_data";
-import Logs from "./pages/Logs";
-import Scanners from "./pages/Scanners";
+import Login from "./pages/auth/Login";
+import Dashboard from "./pages/dashboard/Dashboard";
+import ProtectedRoute from "./components/auth/ProtectedRoute";
+import Controls from "./pages/traffic/controls";
+import { ThemeProvider, ThemeContext } from "./context/ThemeContext";
+import TrafficData from "./pages/dashboard/Traffic_data";
+import Logs from "./pages/traffic/Logs";
+import Scanners from "./pages/traffic/Scanners";
 import { useContext } from "react";
-import Verify2FA from "./pages/Verify2fa";
-import Setup2FA from "./pages/setup2FA";
-import CreateUser from "./pages/CreateUser";
-import { AdminRoute } from "./components/ProtectedRoute";
-import Users from "./pages/Users";
-import UserDetail from "./pages/UserDetail";
-import Junctions from "./pages/Junctions";
+import Verify2FA from "./pages/auth/Verify2fa";
+import Setup2FA from "./pages/auth/setup2FA";
+import CreateUser from "./pages/users/CreateUser";
+import { AdminRoute } from "./components/auth/ProtectedRoute";
+import Users from "./pages/users/Users";
+import UserDetail from "./pages/users/UserDetail";
+import Junctions from "./pages/traffic/Junctions";
 
 function AppRoutes() {
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);

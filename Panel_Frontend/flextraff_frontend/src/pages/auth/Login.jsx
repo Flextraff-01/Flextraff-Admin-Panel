@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/flextraff_logo.png";
+import logo from "../../assets/flextraff_logo.png";
 
 const API_URL = import.meta.env.DEV
   ? "http://localhost:8001"
