@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { UserPlus, RefreshCw } from "lucide-react";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../../components/layout/Sidebar";
 
 const API_URL = import.meta.env.DEV
   ? "http://localhost:8001"

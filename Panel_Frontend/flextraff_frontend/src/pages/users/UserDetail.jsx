@@ -2,8 +2,8 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft, Plus, Trash2, Save, Key } from "lucide-react";
-import Sidebar from "../components/Sidebar";
-import supabase from "../supabaseClient";
+import Sidebar from "../../components/layout/Sidebar";
+import supabase from "../../lib/supabaseClient";
 
 const API_URL = import.meta.env.DEV
   ? "http://localhost:8001"

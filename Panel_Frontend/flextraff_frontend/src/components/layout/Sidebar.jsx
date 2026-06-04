@@ -10,7 +10,7 @@ import {
   GitBranch,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import flextraff_logo from "../assets/flextraff_logo.png";
+import flextraff_logo from "../../assets/flextraff_logo.png";
 
 export default function Sidebar({ darkMode, toggleDarkMode }) {
   const navigate = useNavigate();

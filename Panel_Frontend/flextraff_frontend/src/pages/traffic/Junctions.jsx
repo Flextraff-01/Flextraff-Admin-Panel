@@ -1,6 +1,6 @@
 // src/pages/Junctions.jsx
 import { useEffect, useState } from "react";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../../components/layout/Sidebar";
 
 const API_URL = import.meta.env.DEV
   ? "http://localhost:8001"
