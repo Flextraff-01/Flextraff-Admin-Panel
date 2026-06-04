@@ -10,7 +10,7 @@ import ProtectedRoute from "./components/auth/ProtectedRoute";
 import Controls from "./pages/traffic/controls";
 import { ThemeProvider, ThemeContext } from "./context/ThemeContext";
 import TrafficData from "./pages/dashboard/Traffic_data";
-import Logs from "./pages/traffic/Logs";
+import Logs from "./pages/traffic/logs";
 import Scanners from "./pages/traffic/Scanners";
 import { useContext } from "react";
 import Verify2FA from "./pages/auth/Verify2fa";
